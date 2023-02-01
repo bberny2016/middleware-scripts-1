@@ -7,17 +7,11 @@ pipeline{
                 echo "build"
             }
         }
-        agent any
-    
-    stages {
         stage("test"){
             steps {
                 echo "test"
             }
         }
-        agent any
-    
-    stages {
         stage("deploy"){
             steps {
                 echo "deploy"
